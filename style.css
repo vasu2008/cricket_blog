@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+    background-color: blanchedalmond;
+}
+body{
+    color: rgb(17, 18, 19);
+}
+#image{
+    grid-area: img;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(3, 153, 246);
+    border-radius: 50%; 
+}
+#header{
+    grid-area: head;
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(20, 2, 2);
+    align-items: center;
+    background-image: linear-gradient(to left, rgba(0,0,0,0), rgb(228, 130, 130));   
+    box-shadow: 5px 5px 5px skyblue; 
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h2{
+    text-decoration: underline;
+    font-family: cursive;
+}
+a{
+    font-style: italic;
+    font-size: larger;
+}
+#introduction{
+    align-items: center;
+    text-align: center;
+    grid-area: auto;
+    border-radius: 15px;
+    background-image: linear-gradient(to left, rgba(0,0,0,0), rgb(126,74,15));
+}
+#history{
+    grid-area: auto;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgb(15,126,104));
+    text-align: center;
+}
+#winners{
+    align-items: center;
+    text-align: center;
+    grid-area: auto;
+    border-radius: 15px;
+    background-image: linear-gradient(to left, rgba(0,0,0,0), rgb(175, 176, 169));
+}
+#contact{
+    grid-area: con;
+    text-align: center;
+    border: 2px solid yellow;
+    background-image: linear-gradient(rgba(0,0,0,0) rgb(153,160,10));
+    
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+#header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+#footer{
+    grid-area: foot;
+    text-align: center;
+}
+
